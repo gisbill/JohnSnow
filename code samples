@@ -1,0 +1,1 @@
+SELECT * FROM cholera_deaths WHERE count > 4
