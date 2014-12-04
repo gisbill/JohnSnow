@@ -3,7 +3,6 @@
   marker-width: 24;
   marker-fill: #2167AB;
 }
-
 #pumps [description = "Broad St Pump"] {
   marker-file: url(http://com.cartodb.users-assets.production.s3.amazonaws.com/maki-icons/water-24.svg);
   marker-width: 24;
