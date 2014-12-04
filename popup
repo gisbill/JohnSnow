@@ -1,0 +1,15 @@
+<div class="cartodb-popup v2">
+  <a href="#close" class="cartodb-popup-close-button close">x</a>
+  <div class="cartodb-popup-content-wrapper">
+    <div class="cartodb-popup-content">
+      <p>{{description}}</p>
+      {{#image}}
+      <a href={{link}}><img src={{image}} style="display:inline; height:140; width:100%"></a>
+      {{/image}}
+      {{^image}}
+      <h4>pump<h4>  
+      {{/image}}
+    </div>
+  </div>
+  <div class="cartodb-popup-tip-container"></div>
+</div>
