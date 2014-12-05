@@ -1,0 +1,33 @@
+```
+-baseurl: "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+-vizjson: "http://gisbill.cartodb.com/api/v2/viz/b0026254-7b58-11e4-a048-0e018d66dc29/viz.json"
+-title: "John Snow"
+-author: "gisbill"
+```
+
+#1854 London
+```
+- center: [51.513, -0.136]
+- zoom: 15
+```
+
+This Odyssey.js story uses a cartodb visualization. It is written in Markdown, which you can read more about [here] (http://daringfireball.net/projects/markdown/). 
+
+
+#John Snow
+```
+- center: [51.513, -0.136]
+- zoom: 16
+```
+Now called the father of epidemiology, he created the map shown here as a base map in order to determine the likely source of the cholera outbreak. 
+![John Snow](http://upload.wikimedia.org/wikipedia/commons/c/cc/John_Snow.jpg "Johnny")
+
+
+#Cholera
+```
+- center: [51.5133, -0.1366]
+- zoom: 17
+L.marker([51.5133, -0.1366]).actions.addRemove(S.map)
+```
+
+Here we see the infected water pump, marked with an additional point.
