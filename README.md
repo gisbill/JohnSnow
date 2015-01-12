@@ -1,6 +1,6 @@
 John Snow
 ========
-Recreation of John Snow's famous 1854 London cholera map, for educational use. Intended for a [CartoDB](cartodb.com) map.
+Recreation of John Snow's famous 1854 London cholera map, for educational use. Intended for a [CartoDB](www.cartodb.com) map.
 Data borrowed from Robin Wilson and converted to web mercator [geojson](geojson.io).
 http://blog.rtwilson.com/john-snows-famous-cholera-analysis-data-in-modern-gis-formats/
 
