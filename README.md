@@ -9,7 +9,7 @@ A georeferenced image can also be added from my mapbox account as a basemap in c
 The [cartocss](http://www.mapbox.com/tilemill/docs/manual/carto/) code is for pumps data, and uses [maki](http://www.mapbox.com/maki/) icons.
 
 The popups code is also for the pumps. Popups code is written with [Mustache](http://mustache.github.io/) templates. There is some built in logic (using mustache) forced into this code, but note that any javascript added to it would break the entire viz.
-The cartodb 'description' field needs to be used, and an 'image' text field needs to be added to pumps in order for some of the code here to work. 
+The cartodb 'description' field needs to be used, and an 'image' and 'link' text field needs to be added to pumps in order for some of the code here to work.
 
 Also included is some code for a simple [Odyssey.js](http://cartodb.github.io/odyssey.js/) map (in [markdown](http://daringfireball.net/projects/markdown/)).
 Be sure to change the vizjson line of code to match your own viz url.
