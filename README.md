@@ -13,3 +13,5 @@ The cartodb 'description' field needs to be used, and an 'image' and 'link' text
 
 Also included is some code for a simple [Odyssey.js](http://cartodb.github.io/odyssey.js/) map (in [markdown](http://daringfireball.net/projects/markdown/)).
 Be sure to change the vizjson line of code to match your own viz url.
+
+If you want to play around with adding custom basemaps, there are many examples shown [here](http://leaflet-extras.github.io/leaflet-providers/preview/) or you can try modifying the url from Stamen's [Map Stack](http://mapstack.stamen.com/).
