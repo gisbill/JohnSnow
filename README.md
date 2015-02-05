@@ -5,6 +5,7 @@ Data borrowed from [Robin Wilson](http://blog.rtwilson.com/john-snows-famous-cho
 
 I've also added a field to the cholera death points, showing distance from the infected well, which can be used for interesting, though made up, temporal visualizations using [torque](http://github.com/CartoDB/torque).
 A georeferenced image can also be added from my mapbox account as a basemap in cartodb using gisbill.Snow.
+If you want to play around with adding other custom basemaps, here are many provider [examples](http://leaflet-extras.github.io/leaflet-providers/preview/), or you can try modifying the url from Stamen's [Map Stack](http://mapstack.stamen.com/).
 
 The [cartocss](http://www.mapbox.com/tilemill/docs/manual/carto/) code is for pumps data, and uses [maki](http://www.mapbox.com/maki/) icons.
 
@@ -13,5 +14,3 @@ The cartodb 'description' field needs to be used, and an 'image' and 'link' text
 
 Also included is some code for a simple [Odyssey.js](http://cartodb.github.io/odyssey.js/) map (in [markdown](http://daringfireball.net/projects/markdown/)).
 Be sure to change the vizjson line of code to match your own viz url.
-
-If you want to play around with adding custom basemaps, here are many provider [examples](http://leaflet-extras.github.io/leaflet-providers/preview/), or you can try modifying the url from Stamen's [Map Stack](http://mapstack.stamen.com/).
