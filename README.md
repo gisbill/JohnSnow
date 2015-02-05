@@ -4,6 +4,7 @@ Recreation of John Snow's famous 1854 London cholera map, for educational use. I
 Data borrowed from [Robin Wilson](http://blog.rtwilson.com/john-snows-famous-cholera-analysis-data-in-modern-gis-formats/) and converted to web mercator [geojson](http://geojson.io).
 
 I've also added a field to the cholera death points, showing distance from the infected well, which can be used for interesting, though made up, temporal visualizations using [torque](http://github.com/CartoDB/torque).
+
 A georeferenced image can also be added from my mapbox account as a basemap in cartodb using gisbill.Snow.
 If you want to play around with adding other custom basemaps, here are many provider [examples](http://leaflet-extras.github.io/leaflet-providers/preview/), or you can try modifying the url from Stamen's [Map Stack](http://mapstack.stamen.com/).
 
